@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(247,246,252);
+    color: rgb(70,71,81);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.material-icons-outlined {
+    vertical-align: midile;
+    line-height: 1px;
+    font-size: 30px;
+}
