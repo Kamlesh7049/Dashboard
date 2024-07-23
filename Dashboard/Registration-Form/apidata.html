@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
+
+        *{
+        font-family: "Sevillana",cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .regis {
+            padding: 30px;
+            background-color: aqua;
+
+        }
+
+        input {
+            margin: 4px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        input:hover {
+            scale: 1.2;
+            transition: scale 1s;
+        }
+
+        button {
+            border: 2px solid rgb(9, 5, 5) !important;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body onload="show()">
+
+    <center style="padding: 150px;">
+        <div class="regis">
+            <form>
+                <input type="text" placeholder="Enter Your id" id="id"><br>
+                <input type="text" placeholder="Enter Your name" id="name"><br>
+                <input type="file" placeholder="Choose file" id="img" style="margin-left: 80px;"><br>
+                <input type="text" placeholder=" Enter UserName" id="uname"><br>
+                <input type="tel" placeholder=" Enter Mobile No" id="mobile"><br>
+                <input type="password" placeholder=" Enter Your Password" id="password"><br>
+                <input type="password" placeholder="Enter Confarm Password" id="cpassword"><br>
+                <button onclick="sub()">Registration</button>
+            </form>
+        </div>
+    </center>
+    <!-- Show data in table front-end -->
+    <table id="show" border="2px" align="center"></table>
+
+    <script src="./apidata.js"></script>
+</body>
+
+</html>

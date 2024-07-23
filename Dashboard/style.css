@@ -49,6 +49,7 @@ body {
     background-color: rgb(255, 111, 0);
 }
 
+
 .grid-container {
     display: grid;
     grid-template-columns: 260px 1fr 1fr 1fr;
@@ -129,6 +130,8 @@ body {
 
 .sidebar-list-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    scale: 1.2;
+    transition: scale 1s;
     cursor: pointer;
 }
 
@@ -189,6 +192,15 @@ body {
     background-color: rgb(29, 38, 154);
 }
 
+/* CARD HOVER */
+
+.card:hover {
+    /* background-color: rgb(75,74,74); */
+    scale: 1.2;
+    transition: scale 1s;
+    cursor: pointer;
+}
+
 .card-inner {
     display: flex;
     align-items: center;
@@ -230,7 +242,15 @@ body {
 .product-button > .material-icons-outlined {
     font-size: 50px;
 
+
 }
+.product-button > .material-icons-outlined:hover{
+    scale: 1.2;
+    transition: scale 1s;
+    cursor: pointer;
+
+}
+
 .social-media {
     /* height: 350px;
     padding: 10px; */
@@ -257,6 +277,11 @@ body {
     font-size: 25px;
 }
 
+.product-icon >:hover {
+    scale: 1.2;
+    transition: scale 1s;
+    cursor: pointer;
+}
 
 /* -----------MEDIA QUERIES---------- */
 

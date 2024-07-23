@@ -1,0 +1,14 @@
+{
+    "registration": [
+      {
+        "id": "12345",
+        "name": "Sanidevgal",
+        "img": "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "username": "sani@gmail.com",
+        "mobile": "789456123000",
+        "password": "123455",
+        "cpassword1": "undefined"
+      }
+    ],
+    "logIn": []
+  }
