@@ -193,12 +193,22 @@ body {
 }
 
 #search{
-    width: 80%;
+    width: 100%;
     height: 30px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 15px;
     outline: none;
 
+    border: 3px solid #ccc; 
+    background: url('https://fonts.gstatic.com/s/i/materialiconsoutlined/search/v11/24px.svg') no-repeat right 10px center;
+    background-size: 20px;
+
 }
+.header-left {
+    display: flex;
+    align-items: center;
+  }
+
 /* CARD HOVER */
 
 .card:hover {
