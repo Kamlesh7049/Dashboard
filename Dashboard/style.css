@@ -192,6 +192,13 @@ body {
     background-color: rgb(29, 38, 154);
 }
 
+#search{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+
+}
 /* CARD HOVER */
 
 .card:hover {
@@ -225,6 +232,10 @@ body {
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
 
 }
+ li:last-child{
+ position:absolute;
+ bottom: 1rem;   
+}
 
 .product-description {
     padding-top: 50px;
@@ -232,7 +243,7 @@ body {
 }
 
 .product-button {
-    background-color: rgb(29, 38, 154);
+    /* background-color: rgb(29, 38, 154); */
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 30px;
