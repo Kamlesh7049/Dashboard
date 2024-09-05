@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 60%;
+        margin: 10px auto;
+      }
+
+      .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .form-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      .form-container input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+      }
+
+      .form-container input[type="text"]:focus {
+        border-color: #007bff;
+      }
+
+      .form-container button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .form-container button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Enter Details</h2>
+      <label for="eno">Enter Employeeno.:</label>
+      <input type="text" id="eno" />
+
+      <label for="nm">Enter Name:</label>
+      <input type="text" id="nm" />
+
+      <label for="city">Enter City:</label>
+      <input type="text" id="city" />
+
+      <label for="salary">Enter Salary:</label>
+      <input type="text" id="salary" />     
+
+      <button id="btn1">Data Save</button>
+    </div>
+
+
+
+    <script src="./insert.js"></script>
+  </body>
+</html>

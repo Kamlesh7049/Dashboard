@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "employeeno": 1,
+      "name": "Kamlesh",
+      "salary": 25000,
+      "city": "Bhopal"
+    },
+    {
+      "id": "2",
+      "employeeno": 2,
+      "name": "Sani",
+      "salary": 5000,
+      "city": "UP"
+    },
+    {
+      "id": "3",
+      "employeeno": 3,
+      "name": "Anurag",
+      "salary": 2000,
+      "city": "Rewa"
+    },
+    {
+      "id": "4",
+      "employeeno": 4,
+      "name": "Nitin",
+      "salary": 1000,
+      "city": "Bhopal"
+    },
+    {
+      "id": "227b",
+      "employeeno": "01",
+      "name": "Ram",
+      "city": "Jabalpur",
+      "salary": "30000"
+    },
+    {
+      "id": "56ff",
+      "employeeno": "02",
+      "name": "Shyam",
+      "city": "Satna",
+      "salary": "20000"
+    },
+    {
+      "id": "6c86",
+      "employeeno": "03",
+      "name": "Ajay",
+      "city": "Singrauli",
+      "salary": "25000"
+    }
+  ]
+}

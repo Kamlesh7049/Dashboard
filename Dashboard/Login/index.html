@@ -14,18 +14,46 @@
 <body>
   <div class="wrapper">
     <h1>Login</h1>
-    <form action="#">
-      <input type="text" placeholder="Username">
-      <input type="password" placeholder="Password">
-
+    <form action="" onsubmit=" return savedata()">
+      <input type="text" placeholder="Username" id="unm">
+      <input type="password" placeholder="Password" id="pass">
+      <button type="submit">Login</button>
     </form>
-    <button>Login</button>
+    <!-- <button>Login</button> -->
     <p>haven't an account</p>
     <a href="../Sign Up/index.html">
       Register Now
     </a>
 
   </div>
+  <script>
+    function savedata() {
+      let username = document.getElementById("unm").value;
+      let pass = document.getElementById("pass").value;
+
+      if (username == "") {
+        alert("plese fill name !");
+        document.getElementById("unm").focus();
+        return false;
+      }
+      else if (pass == "") {
+        alert("plese fill pass !");
+        document.getElementById("pass").focus();
+        return false;
+      }
+      else {
+        alert("Login Successfull !");
+        // window.open("Dashboard/Login/index.html");
+        window.location.href = "../Dashboard/index.html";
+        return false;
+
+      }
+
+    }
+
+
+
+  </script>
 </body>
 
 </html>
