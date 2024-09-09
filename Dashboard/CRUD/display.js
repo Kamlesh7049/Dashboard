@@ -1,6 +1,6 @@
 async function dataShow() {
   let mytable = `
-    <table border="1px" width="600px" align="center">
+    <table border="1px" width="220%" align="center">
     <tr bgcolor="yellow">
     <th>ID</th>
     <th>Employee No</th>
@@ -34,3 +34,17 @@ async function dataShow() {
 }
 
 dataShow();
+
+
+   //Logout................//
+
+   function logout(){
+    let out=window.confirm("do you want to logout");
+    if(out){
+        window.localStorage.clear("information")
+        window.open("../Login/index.html")
+    }
+    else{
+
+    }
+}
