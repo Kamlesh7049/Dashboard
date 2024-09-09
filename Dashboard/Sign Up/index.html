@@ -20,7 +20,7 @@
             <input type="text" placeholder="E-mail" id="eml">
             <input type="password" placeholder="Password" id="pass">
             <input type="password" placeholder="Confirm password" id="cpass">
-            <button type="submit">Sign Up </button>
+            <button type="submit" onclick="sub()">Sign Up </button>
         </form>
         <!-- <button>Sign Up </button> -->
         <p>Already have an account</p>
@@ -89,11 +89,46 @@
             else {
                 alert("data is ready to submit");
                 // window.open("Dashboard/Login/index.html");
-                window.location.href ="../Login/index.html";
+                window.location.href = "../Login/index.html";
                 return false;
 
             }
         }
+
+        function sub() {
+            let username = document.getElementById("unm").value;
+            let mobile = document.getElementById("mob").value;
+            let email = document.getElementById("eml").value;
+            let pass = document.getElementById("pass").value;
+            let cpass = document.getElementById("cpass").value;
+
+
+            let information = {
+                "username": username,
+                "mobile": mobile,
+                "email": email,
+                "password": pass,
+                "cpassword": cpass
+
+            }
+            let url = 'http://localhost:3000/registration';
+            let obj = {
+                method: "POST",
+                headers: {
+                    'content-type': 'apllication/json'
+
+                },
+                body: JSON.stringify(information)
+            }
+            fetch(url, obj)
+
+
+
+
+        }
+
+
+
 
 
     </script>

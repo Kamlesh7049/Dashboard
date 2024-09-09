@@ -17,7 +17,7 @@
     <form action="" onsubmit=" return savedata()">
       <input type="text" placeholder="Username" id="unm">
       <input type="password" placeholder="Password" id="pass">
-      <button type="submit">Login</button>
+      <button type="submit" onclick="login()">Login</button>
     </form>
     <!-- <button>Login</button> -->
     <p>haven't an account</p>
@@ -52,6 +52,28 @@
     }
 
 
+    async function login(){
+    let data=await fetch('http://localhost:3000/registration');
+    let response = await data.json();
+    let username=document.querySelector('#unm').value;
+    let password=document.querySelector('#pass').value;
+
+    let filterdata=response.filter(items=>items.username===username && items.password===password)
+     
+    window.localStorage.setItem('information',JSON.stringify(filterdata))
+    console.log(filterdata)
+
+    if(filterdata.length>=1){
+        window.alert("successfully login");
+        window.open("../Dashboard/index.html");
+    }
+    else{
+        window.alert("register first");
+        window.open("../Sign Up/index.html");
+    }
+
+
+  }
 
   </script>
 </body>

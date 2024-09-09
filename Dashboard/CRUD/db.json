@@ -49,5 +49,16 @@
       "city": "bhopal",
       "salary": "35000"
     }
+    
+  ],
+  "registration": [
+    {
+      "id": "f886",
+      "username": "Kajal",
+      "mobile": "1234567890",
+      "email": "kajal@gmail.com",
+      "password": "Kajal@123",
+      "cpassword": "Kajal@123"
+    }
   ]
 }
