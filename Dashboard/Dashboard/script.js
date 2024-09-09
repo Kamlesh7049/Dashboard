@@ -1,6 +1,7 @@
 // SIDEBAR TOGGLE
 
 let sidebarOpen=false;
+// const sidebar=document.getElementById('sidebar');
 const sidebar=document.getElementById('sidebar');
 
 function openSidebar(){
@@ -24,7 +25,8 @@ function logout(){
     let out=window.confirm("do you want to logout");
     if(out){
         window.localStorage.clear("information")
-        window.open("../Login/index.html")
+        window.open("../login/index.html")
+        
     }
     else{
 
