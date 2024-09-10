@@ -44,7 +44,7 @@ async function insert() {
     let out=window.confirm("do you want to logout");
     if(out){
         window.localStorage.clear("information")
-        window.open("../Login/index.html")
+        window.open("../Login/index.html") 
     }
     else{
 

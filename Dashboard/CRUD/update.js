@@ -1,3 +1,14 @@
+function saveRow(id){
+
+  
+}
+
+
+
+
+
+
+
 function editRow(id){
     document.getElementById(`eno-${id}`).removeAttribute('readonly');
     document.getElementById(`nm-${id}`).removeAttribute('readonly');
