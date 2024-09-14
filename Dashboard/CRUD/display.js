@@ -1,6 +1,6 @@
 async function dataShow() {
   let mytable = `
-    <table border="2px solid black" width="218%" align="center">
+    <table border="2px solid black" width="205%" align="center">
     <tr bgcolor="blue">
     <th>ID</th>
     <th>Employee No</th>

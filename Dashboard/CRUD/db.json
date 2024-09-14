@@ -1,53 +1,39 @@
 {
   "employees": [
     {
-      "id": "1",
-      "employeeno": 1,
+      "employeeno": "1",
       "name": "Kamlesh",
-      "salary": 25000,
-      "city": "Bhopal"
+      "city": "Bhopal",
+      "salary": "25000000",
+      "id": "1"
     },
     {
-      "id": "2",
-      "employeeno": 2,
+      "employeeno": "2",
       "name": "Sani",
-      "salary": 5000,
-      "city": "UP"
+      "city": "UP",
+      "salary": "50000000",
+      "id": "2"
     },
     {
-      "id": "3",
-      "employeeno": 3,
+      "employeeno": "3",
       "name": "Anurag",
-      "salary": 2000,
-      "city": "Rewa"
+      "city": "Rewa",
+      "salary": "2000000",
+      "id": "3"
     },
     {
-      "id": "4",
-      "employeeno": 4,
+      "employeeno": "4",
       "name": "Nitin",
-      "salary": 1000,
-      "city": "Bhopal"
+      "city": "Bhopal",
+      "salary": "1000000",
+      "id": "4"
     },
     {
-      "id": "227b",
-      "employeeno": "01",
-      "name": "Ram",
-      "city": "Jabalpur",
-      "salary": "30000"
-    },
-    {
-      "id": "56ff",
-      "employeeno": "02",
-      "name": "Shyam",
-      "city": "Satna",
-      "salary": "20000"
-    },
-    {
-      "id": "0abd",
       "employeeno": "0111",
       "name": "Kajal",
-      "city": "bhopal",
-      "salary": "35000"
+      "city": "Bhopal",
+      "salary": "35000000",
+      "id": "0abd"
     }
   ],
   "registration": [
@@ -66,6 +52,14 @@
       "email": "anurag@gmail.com",
       "password": "Anurag@123",
       "cpassword": "Anurag@123"
+    },
+    {
+      "id": "241f",
+      "username": "Ankita Bobde",
+      "mobile": "0123456789",
+      "email": "ankita@gmail.com",
+      "password": "Ankita@123",
+      "cpassword": "Ankita@123"
     }
   ]
 }
